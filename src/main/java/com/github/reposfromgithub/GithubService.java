@@ -23,7 +23,7 @@ public class GithubService {
         String url = "https://api.github.com/users/" + username + "/repos";
         Request request = new Request.Builder()
                 .url(url)
-                .header("Accept", "application/vnd.github+json")
+                .header("Accept", "application/json")
                 .header("Authorization", "Bearer "+TOKEN)
                 .build();
 
