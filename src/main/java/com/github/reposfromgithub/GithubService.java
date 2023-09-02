@@ -17,7 +17,7 @@ import java.util.Map;
 public class GithubService {
 
     private final OkHttpClient client = new OkHttpClient();
-    private static final String TOKEN = "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";
+    private static final String TOKEN = "";
 
     public JSONArray getReposForUser(String username) throws IOException {
         String url = "https://api.github.com/users/" + username + "/repos";

@@ -22,7 +22,7 @@ public class GithubController {
 
     @GetMapping("/repos/{username}")
     public ResponseEntity<Object> getRepos(@PathVariable String username, @RequestHeader("Accept") String acceptHeader) {
-        if (!"application/json".equals(acceptHeader)) {
+        if ("application/xml".equals(acceptHeader)) {
             return ResponseEntity.status(406).body(Map.of("status", "406", "Message", "Only application/json is supported"));
         }
 
