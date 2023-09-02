@@ -1,4 +1,4 @@
-# GitHubRepos
+# ReposFromGitHub
 
 ## Table of contents
 * [General info](#general-info)
