@@ -36,6 +36,6 @@ Put in a web browser http://localhost:8080/repos/<gitUser>
 You should also put you PAT (Personal Acces Token) from your GitHub account.
 The Token put in GithubService class in 
 <pre>
-private static final String TOKEN = "<TOKEN>";
+private static final String TOKEN = "YOUR_TOKEN";
 </pre>
   
